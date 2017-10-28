@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Los Planetas</title>
+<script type="text/javascript" src="jquery-1.7.2.js"></script>
+<script type="text/javascript">
+      function cargar(Intro){
+           $('#c-col').load(Intro);
+      }
+	   function cargar(Flash){
+           $('#c-col').load(Flash);
+      }
+	     function cargar(Video){
+           $('#c-col').load(Video);
+      }
+	      function cargar(Sonido){
+           $('#c-col').load(Sonido);
+      }
+	      function cargar(Formulario){
+           $('#c-col').load(Formulario);
+      }
+	  
+</script>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+<meta charset="iso-8859-1">
+<meta name="Robots" content="NOINDEX">
+<meta http-equiv="PRAGMA" content="NO-CACHE">
+<link rel="stylesheet" type="text/css"
+href="3c-hd-ft-flex-layout.css">
+<link rel="stylesheet" type="text/css"
+href="3c-hd-ft-flex-presentation.css">
+</head>
+<body>
+
+<!-- header div -->
+<div align="center" id="hdr"> 
+<br>
+<a href="multimedia/Informacion/Mercurio.html" target="Principal" ><img src="multimedia/imagenes/MERCURIO.gif" alt="Mercurio"></a>        
+<a href="multimedia/Informacion/Venus.html" target="Principal"><img src="multimedia/imagenes/VENUS.gif" alt="Venus"></a>       
+<a href="multimedia/Informacion/Tierra.html" target="Principal"><img src="multimedia/imagenes/TIERRA.gif" alt="La Tierra"></a>       
+<a href="multimedia/Informacion/Marte.html" target="Principal"><img src="multimedia/imagenes/MARTE.gif" alt="Marte"></a>       
+<a href="multimedia/Informacion/Jupiter.html" target="Principal"><img src="multimedia/imagenes/JUPITER.gif" alt="Júpiter"></a>       
+<a href="multimedia/Informacion/Saturno.html" target="Principal"><img src="multimedia/imagenes/SATURNO.gif" alt="Saturno"></a>        
+<a href="multimedia/Informacion/Urano.html" target="Principal"><img src="multimedia/imagenes/URANO.gif" alt="Urano"></a>       
+<a href="multimedia/Informacion/Neptuno.html" target="Principal" ><img src="multimedia/imagenes/NEPTUNO.gif" alt="Neptuno"></a>
+</div>
+<!-- center column -->
+<div id="c-block">
+<div id="c-col">
+<br>
+<ul class="menu">      
+<li><a href="#" onclick="cargar('Intro.html');">Intro</a></li>
+<li><a href="#" onclick="cargar('Flash.html');">Sistema Solar</a></li>
+<li><a href="#" onclick="cargar('Video.html');">Video</a></li>
+<li><a href="#" onclick="cargar('Sonido.html');">Sonidos</a></li>
+<li><a href="#" onclick="cargar('Formulario.html');">Contacto</a></li>
+</ul> 
+</div>
+</div>
+<!-- end of center column -->
+<!-- end c-block -->
+<div id="ftr" align="center">
+</div>
+<!-- left column -->
+<div id="lh-col">
+<br>
+<h3 align="center">GALAXIA</h3> 
+ <p id="p">Es un conjunto de varias estrellas, nubes de gas, planetas, polvo cósmico, materia oscura y quizá energía oscura, unido gravitatoriamente. La cantidad de estrellas que forman una galaxia es incontable, desde las enanas, con 107, hasta las gigantes, con 1012 estrellas.
+ Formando parte de una galaxia existen subestructuras como las nebulosas, los cúmulos estelares y los sistemas estelares múltiples.</p>
+</div>
+<!-- end of left column -->
+<!-- right column -->
+<div id="rh-col">
+<br>
+<h3 align="center">La Vía Láctea</h3> 
+<p id="p">Es la galaxia espiral en la que se encuentra el Sistema Solar y, por ende, la Tierra. Se calcula que contiene entre 200 mil millones y 400 mil millones de estrellas. La distancia desde el Sol hasta el centro de la galaxia es de alrededor de 27.700 años luz (8.500 pc, es decir, el 55 por ciento del radio total galáctico).
+La Vía Láctea forma parte de un conjunto de unas cuarenta galaxias llamado Grupo Local. Es la segunda más grande y brillante tras la Galaxia de Andrómeda.</p> 
+
+</div>
+<!-- end of right column -->
+</body>
+</html>
